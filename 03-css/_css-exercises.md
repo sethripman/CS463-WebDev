@@ -30,21 +30,22 @@ Calculate the specificity of the rules below. Write your answers as comments bel
 ```css
 nav .list-item > a {
 }
-
+/* 0 - 1 - 2 */
 #main::first-letter {
 }
-
+/* 1 - 0 - 1 */
 input[type] {
 }
-
+/* 0 - 1 - 1 */
 section .main::first-line {
 }
-
-nav ul.menu li#first a:not([class='visited']) {
+/* 0 - 1 - 2 */
+nav ul.menu li#first a:not([class="visited"]) {
 }
-
+/* 1 - 2 - 4 */
 div ol li ul li ol li ul li a {
 }
+/* 0 - 0 - 9 */
 ```
 
 ## <a id="ex04"></a> Exercise 04 - Layout
